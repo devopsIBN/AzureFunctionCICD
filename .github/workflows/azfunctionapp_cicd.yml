@@ -9,10 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       # This is the path of your Azure Function in Git.  
-      GIT_FunctionApp_Name:
-        description: 'Provide the Function App Name'
-        required: true
-        default: 'functionappsr'
+      
         
       GIT_FunctionApp_URL:
         description: 'Provide the Function App URL'
